@@ -32,7 +32,7 @@ def clear_history():
 def show_len():
     print((st.session_state['history']))
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 
 title_col, button_col  = st.columns([3, 1])
